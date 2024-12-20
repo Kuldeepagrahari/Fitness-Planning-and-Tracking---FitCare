@@ -1,0 +1,249 @@
+
+  
+  .home {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header Section */
+  .home-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 50px;
+
+    gap: 20px;
+  }
+  
+  .header-content {
+    flex: 1;
+  }
+  
+  .header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .header-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .primary-btn {
+    background-color: rgb(133, 43, 43);
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+  
+  .header-animation {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-image {
+    max-width: 100%;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  .head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    img{
+        width:90%;
+        margin:35px 0;
+        border-radius:10px;
+    }
+  }
+  .get-started{
+    position: absolute;
+    bottom:7vh;
+    left:10vw;
+    border-radius: 20px;
+    background-color:white;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     padding:20px;
+      color:black;
+       text-decoration:none;
+       box-shadow: 2px 2px 5px black;
+    
+  }
+  /* About Section */
+  .about-section {
+    width: 90%;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+    border-left: 10px solid var(--primary-color);
+    border-radius: 10px;
+  }
+  
+  .about-section h2 {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* How It Works Section */
+  .how-it-works {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .how-it-works h2 {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 30px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .step {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+    border-left: 10px solid var(--primary-color);
+  }
+  
+  .step h3 {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Benefits Section */
+  .benefits-section {
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border-left: 10px solid var(--primary-color);
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .benefits-section h2 {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .benefits-section ul {
+    list-style: none;
+    padding: 0;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .benefits-section li {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .benefits-section li:before {
+    content: "✔";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+  }
+  
+  /* Mobile View */
+  @media (max-width: 768px) {
+    .home-header {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .header-animation {
+      margin-top: 20px;
+    }
+  
+    .steps {
+      flex-direction: column;
+    }
+    .benefits-section{
+        width: 90%;
+    }
+    .head{
+        /* height:40vh; */
+        margin-bottom: 10vh;
+        .get-started{
+            height:20px;
+            top:27vh;
+            background-color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color:white;
+            font-weight: bold;
+            border-radius: 20px;
+            
+        }
+        .get-started:hover{
+            transform: scale(1.05);
+        }
+        img{
+            width: 95%;
+        }
+    }
+  }
+  
