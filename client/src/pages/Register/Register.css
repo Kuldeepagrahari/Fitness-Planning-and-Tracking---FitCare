@@ -118,7 +118,7 @@
   @media (max-width: 768px) {
     .sign-up {
       flex-direction: column;
-      height: 120vh;
+      height: 130vh;
     }
   
     .sign-up-left {
