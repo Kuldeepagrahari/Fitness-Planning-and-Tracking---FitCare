@@ -38,7 +38,7 @@ const Profile = () => {
     <div className="profile-page">
       <div className="profile-header">
         
-        <h1 style={{fontSize:"60px", marginBottom:"20px"}}>Create Your Profile</h1>
+        <h1 style={{fontSize:"60px", marginBottom:"20px"}}>Let Us Know About Yourself</h1>
         <p style={{fontSize:"20px"}}>Provide the required details to customize your diet and workout plan.</p>
       </div>
       <form onSubmit={handleSubmit} className="profile-form">

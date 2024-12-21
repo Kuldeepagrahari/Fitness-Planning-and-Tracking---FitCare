@@ -83,6 +83,7 @@
         width:90%;
         margin:35px 0;
         border-radius:10px;
+        box-shadow: 2px 2px 10px black;
     }
   }
   .get-started{
@@ -100,6 +101,11 @@
        text-decoration:none;
        box-shadow: 2px 2px 5px black;
     
+  }
+  .get-started:hover{
+    transform: scale(1.05);
+    background-color: black;
+    color: var(--primary-color);
   }
   /* About Section */
   .about-section {

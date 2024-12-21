@@ -9,12 +9,20 @@
 .profile-page {
     width: 90%;
     margin: 20px auto;
+   
+   
+
+    
+  
+    
+}
+.profile-form{
+    border-radius: var(--border-radius);
+    padding: 50px;
     background: rgb(235, 243, 247);
     border-left: 10px solid var(--primary-color);
-    border-radius: var(--border-radius);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    
+    margin-bottom: 50px;
 }
 
 /* Profile Header Section */
