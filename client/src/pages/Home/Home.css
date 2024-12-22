@@ -82,11 +82,11 @@
   }
   
   .header {
-    height: 80vh;
+    /* height: 80%; */
     width: 100%;
     background-color: var(--primary-color);
     margin-bottom: 50px;
-    padding: 40px;
+    padding: 150px 40px;
     color: white;
     text-align: center;
     display: flex;
