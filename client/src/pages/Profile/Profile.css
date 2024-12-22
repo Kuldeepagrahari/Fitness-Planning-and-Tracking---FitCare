@@ -19,7 +19,7 @@
 .profile-form{
     border-radius: var(--border-radius);
     padding: 50px;
-    /* background-color: #f7f6f3; */
+    /* background-color: var(--primary-color); */
     border-left: 10px solid var(--primary-color);
     box-shadow: 1px 1px 10px rgb(209, 207, 207);
     margin-bottom: 50px;
