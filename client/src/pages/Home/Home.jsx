@@ -7,7 +7,7 @@ const Home = () => {
       {/* Header Section */}
       <div className="home-header">
         <div className="header-content">
-          <h1>Your Journey to a Healthier You Starts Here!</h1>
+          <h1>Hi, Your Journey to a Healthier You Starts Here!</h1>
           <p>
             FitCare empowers your fitness journey with tools for tracking
             workouts, planning diets, and living healthier—all in one place.
