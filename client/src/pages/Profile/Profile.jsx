@@ -33,13 +33,13 @@ const Profile = () => {
     e.preventDefault();
     console.log("Form Data Submitted: ", formData);
   };
-
+ 
   return (
     <div className="profile-page">
       <div className="profile-header">
         
-        <h1 style={{fontSize:"60px", marginBottom:"20px"}}>Let Us Know About Yourself</h1>
-        <p style={{fontSize:"20px"}}>Provide the required details to customize your diet and workout plan.</p>
+        <h1 style={{fontSize:"60px", marginBottom:"20px", textShadow:"1px 1px 10px rgb(200, 200, 200)"}}>Profile</h1>
+        <p style={{fontSize:"25px", color:"var(--primary-color)", fontWeight:"bold"}}>Provide the required details to customize your diet and workout plan.</p>
       </div>
       <form onSubmit={handleSubmit} className="profile-form">
         {/* Weight, Height, and Age */}

@@ -38,7 +38,7 @@
   .navbar-links .nav-link:hover,
   .navbar-links .nav-link.active-link {
     color: white;
-    background-color: #04afee;
+    background-color: var(--primary-color);
     font-weight: bold;
   }
   
@@ -68,7 +68,7 @@
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       padding: 10px;
-      border-left: 7px solid #04afee;
+      border-left: 7px solid var(--primary-color);
     }
   
     .navbar-links.open {
@@ -126,7 +126,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
     z-index: 1000;
-    border-left: 7px solid #04afee;
+    border-left: 7px solid var(--primary-color);
   }
   
   .dropdown-item.logout {

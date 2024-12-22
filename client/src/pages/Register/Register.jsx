@@ -40,7 +40,8 @@ const Register = () => {
 
       {/* Right Section */}
       <div className="sign-up-right">
-        <h2 style={{fontSize:"60px", marginBottom:"50px"}}>Create your account</h2>
+        <div className="form-container">
+        <h2 style={{fontSize:"60px", marginBottom:"50px",textShadow:"0.5px 0.5px 10px rgb(211, 210, 210)"}}>Register</h2>
         <form className="sign-up-form" onSubmit={handleSignUp}>
           <input
             type="text"
@@ -108,7 +109,7 @@ const Register = () => {
         <p className="login-link">
           Already have an account? <a href="/sign-in">Login here</a>
         </p>
-      </div>
+      </div></div>
     </div>
   );
 };

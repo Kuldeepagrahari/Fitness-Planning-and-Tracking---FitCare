@@ -1,6 +1,4 @@
-:root {
-    --primary-color: #04afee;
-  }
+
   
  
   
@@ -41,9 +39,21 @@
     justify-content: center;
     align-items: center;
     padding: 40px;
-    background-color: #f8f9fa;
+    background-color: #feeef6;
+    
   }
-  
+  .form-container{
+    width: 90%;
+    height: 95%;
+    box-shadow: 2px 2px 10px rgb(211, 210, 210);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: white;
+  }
   .login-form {
     display: flex;
     flex-direction: column;

@@ -21,7 +21,8 @@ const Login = () => {
 
       {/* Right Section */}
       <div className="login-right">
-        <h2 style={{fontSize:"60px", marginBottom:"50px"}}>Login</h2>
+        <div className="form-container">
+        <h2 style={{fontSize:"60px", marginBottom:"50px", textShadow:"0.5px 0.5px 10px rgb(211, 210, 210)"}}>Login</h2>
         <form className="login-form">
           <input
             type="email"
@@ -47,7 +48,7 @@ const Login = () => {
         </div>
         <p className="register-link">
           Don't have an account? <a href="/sign-up">Register here</a>
-        </p>
+        </p></div>
       </div>
     </div>
   );

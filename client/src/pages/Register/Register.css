@@ -1,11 +1,8 @@
-:root {
-    --primary-color: #04afee;
-  }
-  
-  
+
   .sign-up {
     display: flex;
     height: 100vh;
+  
   }
   
   .sign-up-left {
@@ -38,7 +35,9 @@
     justify-content: center;
     align-items: center;
     padding: 40px;
-    background-color: #f8f9fa;
+    background-color: #feeef6;
+  
+    
   }
   
   .sign-up-form {
@@ -47,6 +46,7 @@
     gap: 20px;
     width: 100%;
     max-width: 400px;
+    
   }
   
   .form-input {

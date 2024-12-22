@@ -7,7 +7,9 @@
     font-style: normal;
 }
 :root {
-    --primary-color: #04afee;
+    /* --primary-color: #04afee; */
+    /* --primary-color: #fc044e; */
+    --primary-color: #fc046f;
 }
 
 .app{
