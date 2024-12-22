@@ -178,6 +178,8 @@
   border-left: 10px solid var(--primary-color);
   border-radius: 10px;
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
   box-shadow: 0.5px 0.5px 10px rgb(211, 210, 210);
   animation: zoom-in 1.5s ease-in-out;
 }
@@ -196,7 +198,13 @@
   text-align: left;
   animation: fade-in-up 1.5s ease-out;
 }
-
+.benefits-section li:before {
+  content: "✔";
+  color: var(--primary-color);
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+}
 .benefits-section li {
   font-size: 1rem;
   line-height: 1.6;
