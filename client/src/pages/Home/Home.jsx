@@ -9,10 +9,7 @@ const Home = () => {
   <div className="header">
     <h1>Your Journey to a Healthier You Starts Here!</h1>
     <p>
-          FitCare is designed to help you take control of your fitness journey.
-          Whether you're tracking your workouts, planning a diet, or simply
-          trying to live a healthier life, FitCare offers the tools you need to
-          succeed.
+    FitCare empowers your fitness journey with tools for tracking workouts, planning diets, and living healthier—all in one place.
         </p>
     <a href="/sign-up" className="get-started">Get Started</a>
   </div>

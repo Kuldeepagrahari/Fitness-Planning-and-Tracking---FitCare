@@ -127,7 +127,17 @@
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   }
-  
+  @media screen and (max-width: 768px){
+    .header{
+      padding: 50px 20px;
+    }
+    .header h1{
+      font-size: 2rem;
+    }
+    .get-started{
+      background-color: white;
+    }
+  }
   /* About Section */
   .about-section {
     width: 90%;
@@ -256,7 +266,7 @@
     .head{
         /* height:40vh; */
         margin-bottom: 10vh;
-        .get-started{
+        /* .get-started{
             height:20px;
             top:27vh;
             background-color: var(--primary-color);
@@ -267,7 +277,7 @@
             font-weight: bold;
             border-radius: 20px;
             
-        }
+        } */
         .get-started:hover{
             transform: scale(1.05);
         }
