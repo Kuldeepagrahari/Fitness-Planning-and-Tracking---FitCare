@@ -39,7 +39,71 @@ const Profile = () => {
       <div className="profile-header">
         
         <h1 style={{fontSize:"60px", marginBottom:"20px", textShadow:"1px 1px 10px rgb(200, 200, 200)"}}>Profile</h1>
-        <p style={{fontSize:"25px"}}>Provide the required details to customize your diet and workout plan.</p>
+        <div className="personal-data">
+        <form
+        onSubmit={handleSubmit}
+        className="personal-form"
+        style={{
+          width: "100%",
+          backgroundColor: "var(--primary-color)",
+          padding: "20px",
+          marginTop: "30px",
+          borderRadius: "10px",
+        }}
+      >
+       
+
+        <div className="form-group pic">
+         
+          <input
+            type="file"
+            id="profilePhoto"
+            name="profilePhoto"
+            accept="image/*"
+            onChange={handleChange}
+          />
+        </div>
+
+        <div className="form-group">
+       
+          <input
+            type="text"
+            id="contact"
+            name="contact"
+            value={formData.contact}
+            onChange={handleChange}
+            placeholder="Enter your contact details"
+          />
+        </div>
+
+        <div className="form-group">
+        
+          <textarea
+            id="address"
+            name="address"
+            value={formData.address}
+            onChange={handleChange}
+            placeholder="Enter your full address"
+          ></textarea>
+        </div>
+
+        <div className="form-group">
+        
+          <textarea
+            id="bio"
+            name="bio"
+            value={formData.bio}
+            onChange={handleChange}
+            placeholder="Write a short bio about yourself"
+          ></textarea>
+        </div>
+
+        <button type="submit" className="submit-btn">
+          Update Personal Details
+        </button>
+      </form>
+        </div>
+        <p style={{fontSize:"40px", fontWeight:"bold"}}>Provide the required details to customize your diet and workout plan.</p>
       </div>
       <form onSubmit={handleSubmit} className="profile-form">
         {/* Weight, Height, and Age */}

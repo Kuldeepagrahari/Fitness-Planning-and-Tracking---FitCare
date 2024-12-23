@@ -6,7 +6,8 @@ const Home = () => {
     <div className="home">
       {/* Header Section */}
       <div className="home-header">
-        <div className="header-content">
+        <div className="header-content-out">
+          <div className="header-content">
           <h1>Hi, Your Journey to a Healthier You Starts Here!</h1>
           <p>
             FitCare empowers your fitness journey with tools for tracking
@@ -15,7 +16,7 @@ const Home = () => {
           <a href="/sign-up" className="btn">
             Get Started
           </a>
-        </div>
+        </div><img src="https://plus.unsplash.com/premium_photo-1679596990747-d32c550a8fc7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhlYWx0aHl8ZW58MHx8MHx8fDA%3D" alt="" /></div>
       </div>
 
       {/* About Section */}
